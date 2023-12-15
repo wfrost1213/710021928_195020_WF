@@ -226,8 +226,3 @@ def quickhull(points: list):
     findhull(side2, max_x, min_x)
 
     return hull
-
-
-# rand_points = generate_points(high=100, low=0, num_points=100)
-# convex_hull = quickhull(rand_points)
-# print(f"Convexhull Points: {convex_hull}")

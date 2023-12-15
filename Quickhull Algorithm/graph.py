@@ -30,8 +30,3 @@ def show_graph(points, hull):
                  color='red', linestyle='-', linewidth=2)
 
     plt.show()
-
-
-random_points = generate_points(200, 0, 100)
-convex_hull = quickhull(random_points.copy())
-show_graph(random_points, convex_hull)
